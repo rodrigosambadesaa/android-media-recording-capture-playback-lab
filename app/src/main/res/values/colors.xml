@@ -1,0 +1,4 @@
+<resources>
+    <color name="status_ok">#1B5E20</color>
+    <color name="status_warn">#B26A00</color>
+</resources>
