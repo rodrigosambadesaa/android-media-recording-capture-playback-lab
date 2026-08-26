@@ -4,7 +4,11 @@ plugins {
 
 android {
     namespace 'gal.rodrigosambade.multimedia.capturelab'
-    compileSdk 37
+    compileSdk {
+        version = release(37) {
+            minorApiLevel = 1
+        }
+    }
 
     defaultConfig {
         applicationId 'gal.rodrigosambade.multimedia.capturelab'
